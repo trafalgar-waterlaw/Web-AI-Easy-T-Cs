@@ -1,0 +1,35 @@
+header {
+  background-color: #536878; /* Muted blue header */
+  color: #EAE0C8; /* Light beige text */
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav a {
+  margin-left: 20px;
+  color: #EAE0C8; /* Light beige links */
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}

@@ -1,0 +1,14 @@
+<div class="summarize-container">
+   <div *ngIf="!showSummary">
+  <h2>Summarize Terms and Conditions</h2>
+  <textarea [(ngModel)]="text" placeholder="Paste your T&Cs here"></textarea>
+  <button (click)="onSubmit()" [disabled]="isLoading">Summarize</button>
+  <div *ngIf="isLoading">Loading...</div>
+</div>
+
+  <div *ngIf="showSummary">
+    <h3>Summary:</h3>
+    <p>{{ summary }}</p>
+    <button (click)="goToFeedback()">Submit Feedback</button>
+  </div>
+</div>

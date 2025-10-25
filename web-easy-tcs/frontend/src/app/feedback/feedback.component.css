@@ -1,0 +1,46 @@
+.feedback-container {
+  background-color: #FFFFFF; /* White background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+h2 {
+  color: #536878; /* Muted blue heading */
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 98%;
+  padding: 10px;
+  border: 1px solid #536878; /* Muted blue border */
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 100px;
+  width: 98%;
+}
+
+.submission-status h3 {
+  color: #536878; /* Muted blue text */
+}
+
+.star-rating {
+  margin-bottom: 20px;
+}
+
+.star-rating .fa-star {
+  font-size: 24px;
+  color: #ccc; /* Default star color */
+  cursor: pointer;
+}
+
+.star-rating .fa-star.active {
+  color: #ffcc00; /* Active star color */
+}

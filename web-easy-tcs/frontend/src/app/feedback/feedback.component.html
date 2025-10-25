@@ -1,0 +1,21 @@
+<div class="feedback-container">
+  <h2>Submit Feedback</h2>
+  <div *ngIf="!isSubmitted">
+    <input [(ngModel)]="summary" placeholder="Summary">
+    <div class="star-rating">
+      <span *ngFor="let star of [1, 2, 3, 4, 5]; let i = index"
+            (click)="setRating(star)"
+            (mouseover)="setTempRating(star)"
+            (mouseleave)="setTempRating(0)">
+        <i class="fas fa-star" [ngClass]="{'active': star <= (tempRating || rating)}"></i>
+      </span>
+    </div>
+    <textarea [(ngModel)]="comments" placeholder="Comments"></textarea>
+    <button (click)="onSubmit()">Submit Feedback</button>
+  </div>
+  <div *ngIf="isSubmitted" class="submission-status">
+    <h3 *ngIf="submissionSuccess">Feedback submitted successfully!</h3>
+    <h3 *ngIf="!submissionSuccess">Feedback submission was unsuccessful.</h3>
+    <button (click)="goBack()">Go Back</button>
+  </div>
+</div>

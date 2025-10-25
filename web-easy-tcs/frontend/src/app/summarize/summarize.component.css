@@ -1,0 +1,44 @@
+.summarize-container {
+  background-color: #FFFFFF; /* White background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 90%; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+h2 {
+  color: #536878; /* Muted blue heading */
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 98%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #536878; /* Muted blue border */
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.loading {
+  color: #536878; /* Muted blue text */
+  font-style: italic;
+}
+
+.summary {
+  margin-top: 20px;
+}
+
+.summary h3 {
+  color: #536878; /* Muted blue heading */
+}
+
+.summary p {
+  background-color: #EAE0C8; /* Light beige background */
+  padding: 10px;
+  border-radius: 4px;
+  color: #536878; /* Muted blue text */
+}

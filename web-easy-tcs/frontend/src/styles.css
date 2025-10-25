@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+/* src/styles.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* YouTube uses Roboto font */
+  background-color: #EAE0C8; /* Light beige background */
+  color: #536878; /* Muted blue text */
+}
+
+a {
+  color: #536878; /* Muted blue links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #536878; /* Muted blue buttons */
+  color: #EAE0C8; /* Light beige text */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3A4A5C; /* Darker blue on hover */
+}
